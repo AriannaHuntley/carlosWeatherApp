@@ -1,0 +1,89 @@
+body{
+    background-image: url("/assets/rainBG.jpg");
+  
+}
+
+.boxesGrid {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+    grid-template-rows: 5rem 20rem 25rem;
+    gap: 15px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.marginBoxes{
+    margin-left: 7rem;
+}
+
+.searchBar{
+    grid-row: 1;
+    grid-column: 3;
+    background-color: black;
+    opacity: 75%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.favoriteBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 1;
+    grid-column: 5;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.mondayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 2;
+    grid-column: 1/span 5;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.tuesdayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 3;
+    grid-column: 1;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wednsdayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 3;
+    grid-column: 2;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.thursdayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 3;
+    grid-column: 3;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.fridayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 3;
+    grid-column: 4;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.saturdayBox {
+    background-color: black;
+    opacity: 75%;
+    grid-row: 3;
+    grid-column: 5;
+    width: 100%;
+    border-radius: 20px;
+}
