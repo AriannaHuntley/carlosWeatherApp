@@ -10,9 +10,55 @@
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <div class="boxesGrid marginBoxes">
-    <div class="searchBar"></div>
-    <div class="favoriteBox"></div>
-    <div class="mondayBox"></div>
+    <div class="searchBar">
+        <div class="container searchContainer">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/assets/searchIcon.png" width="50px" alt="search icon">
+                </div>
+                <div class="col-9">
+                    <input id="UserSearchInput" type="text" class="searchCityFont" placeholder="Search City">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="favoriteBox">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="favoriteFont">Favorites</h2>
+                </div>
+                <div class="col favoriteMarg">
+                    <img src="/assets/favIcon.png" width="70px" alt="yellow star">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mondayBox MondayBoxGrid">
+        
+
+        <!-- <div class="containers">
+            <div class="row">
+                <div class="col-2"> -->
+                    <h2 class="DOWfont">Monday</h2>
+            </div>
+                
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <button type="button" class="btn btn-primary DegreeBtnColor">F</button>
+                        <button type="button" class="btn btn-primary DegreeBtnColor">C</button>
+                    </div>
+                    <p>40°</p>
+                    <p>H/L</p>
+                    <p>20° 100°</p>
+                   <!--  </div>
+            </div>
+            <div class="row">
+                <img src="/assets/sunIcon.png" class="sunWidth" alt="">
+            </div>
+        </div> -->
+    </div>
     <div class="tuesdayBox"></div>
     <div class="wednsdayBox"></div>
     <div class="thursdayBox"></div>
@@ -21,7 +67,7 @@
 </div>
 
 <body>
-
+    <script src="/scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

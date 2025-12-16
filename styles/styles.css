@@ -1,28 +1,46 @@
-body{
+body {
     background-image: url("/assets/rainBG.jpg");
-  
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 
 .boxesGrid {
     display: grid;
     grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
-    grid-template-rows: 5rem 20rem 25rem;
+    grid-template-rows: 8rem 20rem 25rem;
     gap: 15px;
     margin-top: 5rem;
     margin-bottom: 10rem;
 }
 
-.marginBoxes{
-    margin-left: 7rem;
+.marginBoxes {
+    margin-left: 8rem;
 }
 
-.searchBar{
+.searchBar {
     grid-row: 1;
-    grid-column: 3;
-    background-color: black;
-    opacity: 75%;
+    grid-column: 2/span 2;
+    background-color: #24222280;
+    opacity: 90%;
     width: 100%;
-    margin-bottom: 10px;
+    height: 7rem;
+    margin-left: 10rem;
+}
+
+.searchContainer{
+    margin-top: 30px;
+    
+}
+
+.searchCityFont{
+    font-size: 30px;
+    color: lightgrey;
+    outline: none;
+    background-color: transparent;
+    width: 13rem;
+    border: none;
 }
 
 .favoriteBox {
@@ -32,6 +50,19 @@ body{
     grid-column: 5;
     width: 100%;
     border-radius: 20px;
+    height: 80%;
+    padding-left: 15px;
+}
+
+.favoriteFont{
+    font-size: 45px;
+    font-weight: 300;
+    color: white;
+    margin-top: 19px;
+}
+
+.favoriteMarg{
+    margin-top: 15px;
 }
 
 .mondayBox {
@@ -41,6 +72,7 @@ body{
     grid-column: 1/span 5;
     width: 100%;
     border-radius: 30px;
+    padding: 1.5rem;
 }
 
 .tuesdayBox {
@@ -86,4 +118,26 @@ body{
     grid-column: 5;
     width: 100%;
     border-radius: 20px;
+}
+
+.sunWidth{
+    width: 15rem;
+    margin-left: 2rem;
+}
+.DOWfont{
+font-size: 45px;
+color: white;
+margin-left: 4rem;
+font-weight:300;
+}
+.DegreeBtnColor {
+    background-color: darkgray;
+    width: 3rem;
+    height: 3rem;
+    font-size: 20px;
+}
+.MondayBoxGrid{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
