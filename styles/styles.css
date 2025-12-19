@@ -16,7 +16,7 @@ body {
 }
 
 .marginBoxes {
-    margin-left: 8rem;
+    margin-left: 20rem;
 }
 
 .searchBar {
@@ -29,12 +29,12 @@ body {
     margin-left: 10rem;
 }
 
-.searchContainer{
+.searchContainer {
     margin-top: 30px;
-    
+
 }
 
-.searchCityFont{
+.searchCityFont {
     font-size: 30px;
     color: lightgrey;
     outline: none;
@@ -54,14 +54,14 @@ body {
     padding-left: 15px;
 }
 
-.favoriteFont{
+.favoriteFont {
     font-size: 45px;
     font-weight: 300;
     color: white;
     margin-top: 19px;
 }
 
-.favoriteMarg{
+.favoriteMarg {
     margin-top: 15px;
 }
 
@@ -72,7 +72,7 @@ body {
     grid-column: 1/span 5;
     width: 100%;
     border-radius: 30px;
-    padding: 1.5rem;
+    padding: .5rem;
 }
 
 .tuesdayBox {
@@ -82,6 +82,7 @@ body {
     grid-column: 1;
     width: 100%;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .wednsdayBox {
@@ -91,8 +92,8 @@ body {
     grid-column: 2;
     width: 100%;
     border-radius: 20px;
+    padding: 20px;
 }
-
 .thursdayBox {
     background-color: black;
     opacity: 75%;
@@ -100,6 +101,7 @@ body {
     grid-column: 3;
     width: 100%;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .fridayBox {
@@ -109,6 +111,7 @@ body {
     grid-column: 4;
     width: 100%;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .saturdayBox {
@@ -118,26 +121,102 @@ body {
     grid-column: 5;
     width: 100%;
     border-radius: 20px;
+    padding: 20px;
 }
 
-.sunWidth{
-    width: 15rem;
+.sunWidth {
+    width: 13rem;
     margin-left: 2rem;
 }
-.DOWfont{
-font-size: 45px;
-color: white;
-margin-left: 4rem;
-font-weight:300;
+
+.DOWfont {
+    font-size: 45px;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 300;
 }
+
 .DegreeBtnColor {
     background-color: darkgray;
     width: 3rem;
     height: 3rem;
     font-size: 20px;
 }
-.MondayBoxGrid{
+
+.MondayBoxGrid {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.highLowFont {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tempFont {
+    font-size: 45px;
+    color: white;
+    font-weight: 300;
+}
+.AlignCity{
+    margin-left: 10rem;
+}
+.lineHeight{
+    line-height: .8;
+}
+.tempMarg{
+    margin-right: 10rem;
+}
+.monGrid1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.monGrid2{
+   grid-column: 2;
+    grid-row: 1;
+}
+.monGrid3{
+    grid-column: 3;
+    grid-row: 1;
+
+}
+.monGrid4{
+    grid-column: 4;
+    grid-row: 1;
+}
+.monGrid5{
+    grid-column: 5;
+    grid-row: 1;
+}
+.monGrid5{
+    grid-column: 5;
+    grid-row: 1;
+}
+.margDown{
+    margin-top: 4rem;
+}
+.cityFont{
+    font-size: 55px;
+    color: white;
+    font-weight: 400;
+  
+}
+.centerBoxes{
+    text-align: center;
+}
+.LHflex{
+    display: flex;
+    margin-left: 1rem;
+    gap: 7rem;
+}
+.moveMondayTempRight{
+    margin-left: 2rem;
+}
+.alignFav{
+    display: flex;
+}
+.starWidth{
+    width: 60px;
+    height: 60px;
 }
