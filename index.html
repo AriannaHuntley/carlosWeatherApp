@@ -9,6 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
+<body>
 <div class="boxesGrid marginBoxes">
     <div class="searchBar">
         <div class="container searchContainer">
@@ -17,7 +18,7 @@
                     <img src="/assets/searchIcon.png" width="50px" alt="search icon">
                 </div>
                 <div class="col-9">
-                    <input id="UserSearchInput" type="text" class="searchCityFont" placeholder="Search City">
+                    <input id="UserSearchInput" type="text" placeholder="Search City">
 
                 </div>
             </div>
@@ -44,18 +45,18 @@
         </div>
         <div class="monGrid2">
             <div class="btn-group DegreeBtnColor" role="group" aria-label="Button group with nested dropdown">
-                <button type="button" class="btn btn-primary DegreeBtnColor">F</button>
-                <button type="button" class="btn btn-primary DegreeBtnColor">C</button>
+                <button id="btnF" type="button" class="btn btn-primary DegreeBtnColor">F</button>
+                <button id="btnC" type="button" class="btn btn-primary DegreeBtnColor">C</button>
             </div>
 
-            <p class="tempFont ">40°</p>
+            <p id="currentTemp" class="tempFont">40°</p>
             <p class="highLowFont lineHeight">H/L</p>
-            <p class="highLowFont">20° 100°</p>
-            <p class="tempFont lineHeight">Sunny</p>
+            <p id="highLow" class="highLowFont">20° 100°</p>
+            <p id="WeatherDesc" class="tempFont lineHeight">Sunny</p>
         </div>
 
         <div class="monGrid3 alignFav">
-            <p class="cityFont AlignCity ">Stockton</p>
+            <p id="cityName" class="cityFont AlignCity ">Stockton</p>
             <img src="/assets/favIcon.png" class="starWidth" alt="">
         </div>
 
@@ -128,7 +129,7 @@
     </div>
 </div>
 
-<body>
+
     <script type="module" src="/scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
